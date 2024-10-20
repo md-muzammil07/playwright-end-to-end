@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+      "module": "commonjs",
+      "target": "es2020",
+      "outDir": "dist",
+      "rootDir": ".",
+      "moduleResolution": "node",
+      "resolveJsonModule": true,
+      "esModuleInterop": true
+    },
+    "include": [
+      "playwright-end-to-end/**/*.ts",
+      // "playwright-end-to-end/tests/**/*.ts",
+      "playwright-end-to-end/tests/**/*.json",
+      // "send-report-to-slack.ts" // Adjust the path as needed.
+    ],
+    "exclude": [
+      "node_modules",
+      "**/*.spec.ts" // Exclude spec.ts files.
+    ]
+  }
+  
